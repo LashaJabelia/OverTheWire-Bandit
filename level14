@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cat /etc/bandit_pass/bandit14;
+//copy that password;
+nc 127.0.0.1 30000;
+//and paste copied password there
