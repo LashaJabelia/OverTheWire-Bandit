@@ -1,0 +1,26 @@
+#!/bin/bash
+
+mkdir /tmp/workdir;
+cp data.txt /tmp/workdir;
+cd /tmp/workdir;
+xxd -r data.txt > new;
+file new;
+mv new new.gz;
+gzip -d new.gz;
+file new;
+bzip2 -d new;
+mv new.out new.out.gz;
+gzip -d new.out.gz;
+file new.out;
+tar -xf new.out;
+file data5.bin;
+tar -xf data5.bin;
+file data6.bin;
+bzip2 -d data6.bin;
+file data6.bin.out;
+tar -xf data6.bin.out;
+file data8.bin;
+mv data8.bin data8.bin.gz;
+gzip -d data8.bin.gz;
+file data8.bin;
+cat data8.bin
