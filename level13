@@ -1,0 +1,8 @@
+#!/bin/bash
+
+ls;
+cat sshkey.private;
+//copy key and exit from lab as you need to work from your real machine;
+exit; echo "(your copied key)" > sshkey.private;
+chmod 700 sshkey.private;
+ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
