@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ncat --ssl 127.0.0.1 30001;
+//and paste password of previous level
