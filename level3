@@ -1,4 +1,5 @@
 #!/bin/bash
 
 cd inhere;
-ls -a; cat '...Hiding-From-You'
+ls -a;
+cat '...Hiding-From-You'
