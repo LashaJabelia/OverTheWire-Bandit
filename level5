@@ -1,0 +1,4 @@
+#!/bin/bash
+
+find . -size 1033c;
+cat ./inhere/maybehere07/.file2
