@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cat data.txt;
+then go to https://cryptii.com/pipes/caesar-cipher/ paste output and set shift to 13
